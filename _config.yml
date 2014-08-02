@@ -1,4 +1,24 @@
-﻿markdown: rdiscount
-pygments: true
-permalink: /:title
+﻿# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Félix-Antoine Dion
+tagline:          À la recherche de la panacée
+url:              http://felix-antoine-dion.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           Félix-Antoine Dion
+  url:            http://ca.linkedin.com/in/felixantoinedion
+  email:          &#102;&#101;&#108;&#105;&#120;&#046;&#097;&#110;&#116;&#111;&#105;&#110;&#101;&#046;&#100;&#105;&#111;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
 encoding: UTF-8
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/felix-antoine-dion/felix-antoine-dion.github.io
+
