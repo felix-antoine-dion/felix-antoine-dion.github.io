@@ -1,3 +1,4 @@
 ﻿markdown: rdiscount
 pygments: true
 permalink: /:title
+encoding: UTF-8
