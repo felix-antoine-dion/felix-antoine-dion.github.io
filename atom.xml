@@ -1,4 +1,4 @@
----
+﻿---
 layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -10,7 +10,7 @@ layout: nil
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://felix-antoine-dion.github.io</id>
  <author>
-   <name>F�lix-Antoine Dion</name>
+   <name>Félix-Antoine Dion</name>
    <email>felix.antoine.dion@gmail.com</email>
  </author>
 
