@@ -1,4 +1,4 @@
-﻿# Dependencies
+# Dependencies
 markdown:         redcarpet
 pygments:         true
 
@@ -7,18 +7,16 @@ permalink:        pretty
 
 # Setup
 title:            Félix-Antoine Dion
-tagline:          À la recherche de la panacée
+tagline:          à la recherche de la panacée
 url:              http://felix-antoine-dion.github.io
 paginate:         1
 baseurl:          /
 author:
-  name:           Félix-Antoine Dion
+  name:           Félix-Antoine Dopm
   url:            http://ca.linkedin.com/in/felixantoinedion
   email:          felix.antoine.dion@gmail.com
-encoding: UTF-8
 
 # Custom vars
 version:          1.0.0
 github:
   repo:           https://github.com/felix-antoine-dion/felix-antoine-dion.github.io
-

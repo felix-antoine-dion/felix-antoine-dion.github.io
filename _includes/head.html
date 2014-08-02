@@ -1,7 +1,9 @@
-﻿<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
     {% if page.title == "Home" %}
@@ -10,26 +12,15 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-  <meta name="description" content="{{page.description}}">
-  <meta name="author" content="{{ site.author }}">
-  <meta name="copyright" content="{{ site.title }} (c) 2014">
 
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
 
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
-  <link href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.3.1/css/normalize.css" />
-  <link href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.3.1/css/foundation.min.css" />
-  <link href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet" />
-  <link href="/assets/css/site.css" rel="stylesheet" />
-
-  <meta name="application-name" content="Félix-Antoi Dion"/>
-  <meta name="msapplication-config" content="/browserconfig.xml" />
-
-  <link href="/atom.xml" rel="alternate" title="Les derniers articles" type="application/atom+xml">
-
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}atom.xml">
 </head>
