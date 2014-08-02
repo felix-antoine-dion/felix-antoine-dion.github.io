@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr-ca">
 
   {% include head.html %}
 
@@ -15,12 +15,6 @@
 
       {{ content }}
 
-      <div class="footer">
-        <p>
-          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-        </p>
-      </div>
-    </div>
-
+    {% include javascript.html %}
   </body>
 </html>
